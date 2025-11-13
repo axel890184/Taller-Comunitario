@@ -53,10 +53,15 @@ h1,h2,h3 {
   color:#1a1b1a;
 }
 img.responsive {
-  width:60%;
-  height:30px;
-  height: 400px;
+  width: 100%;        /* ocupa todo el ancho disponible */
+  max-width: 500px;   /* límite máximo en pantallas grandes */
+  height: auto;       /* mantiene la proporción original */
+  border-radius: 10px; /* opcional: esquinas redondeadas */
+  display: block;
+  margin: 10px auto;  /* centra la imagen */
 }
+
+
 .table-responsive {
   width:100%;
   overflow-x:auto;
@@ -112,3 +117,4 @@ th, td {
   color: #2E7D32;
   transition: 0.3s;
 }
+
