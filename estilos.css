@@ -36,7 +36,7 @@ nav ul li a:hover {
 }
 .container {
   width:90%;
-  max-width:1000px;
+  max-width:1200px;
   margin:20px auto;
   background:#fff;
   padding:20px;
@@ -117,4 +117,5 @@ th, td {
   color: #2E7D32;
   transition: 0.3s;
 }
+
 
